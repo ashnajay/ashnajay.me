@@ -1,0 +1,88 @@
+<!-- ashnajay.me homepage -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        
+        <!-- CSS styles -->
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
+        <!-- <style>
+            body{font-family: "Lato", sans-serif;}
+        </style> -->
+    </head>
+
+    <body>
+        
+        <!-- <div id="navbar" onload="myFunction()">
+            <a class="active" href="index.html">Home</a>
+            <a href="interests.html">Interests</a>
+            <a href="projects.html">Projects</a>
+        </div> -->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <!-- <div class="logo">
+                         <img src="images/ashnalogo.png" style="object-fit:contain; width:200px;">
+                    </div> -->
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+
+            <div class="container">
+                <div>
+                    <br><br>
+                    <h1 style="font-size: 100px; text-align: center; margin-top: 40px; font-family: Alegreya">Welcome!</h1>
+                </div>
+                    <section class="about-me">
+                        <h2  style="font-size:50px; text-align: center;"> <strong>About Me</strong></h2>
+                        <div class="row">
+                            <div class="column">
+                                <img class="image" src="images/me.jpg" style="max-width:100%;height:400px">
+                            </div>
+                            <div class="column1">
+                                <div class="intro">Hi, I'm Ashna and I'm a sophomore computer science major from New Jersey. Around campus, you can
+                                    find me hunched over my laptop at Collis, hanging out with my friends in Novak, or on an EMS call
+                                    at an ungodly hour of the morning.</div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                           
+                            <div class="skillsList">
+                                <p><strong> * Computer Science Coursework:</strong> Survey of Computer Science, Intro to Programming,
+                                    AP Computer Science, Problem Solving via Object Oriented Programming, Software Design and Implementation</p>
+                            </div>
+                            <div  class="skillsList">
+                                <p><strong> * Software Skills:</strong> Java, Python, C, JavaScript, SQL, Bash, Nodejs, Pandas</p>
+                            </div>
+                            <div  class="skillsList">
+                                <p><strong> * What I'm Learning:</strong> AR/VR Development/C# (Unity), React, HTML/CSS</p>
+                            </div>
+                        </div>
+                </section>
+            </div>
+
+
+            <script>
+                window.onscroll = function() {myFunction()};
+            
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+            
+                function myFunction(){
+                    if(window.pageYOffset >= sticky){
+                        navbar.classList.add("sticky")
+                    }
+                    else{
+                        navbar.classList.remove("sticky")
+                    }
+                }
+            </script>
+    </body>
+</html>
