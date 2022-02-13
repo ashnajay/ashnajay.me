@@ -11,6 +11,7 @@ function Home() {
                     <br /><br />
                     <h1 style={{fontSize: '100px', textAlign: 'center', marginTop: '40px'}}>Welcome!</h1>
                 </div>
+                {/* About section */}
                 <section className="about-me">
                     <h2 style={{fontSize: '50px', textAlign: 'center'}}> <strong>About Me</strong></h2>
                     <div className="row">
@@ -23,13 +24,14 @@ function Home() {
                             at an ungodly hour of the morning.</div>
                         </div>
                     </div>
+                    {/* Skills section */}
                     <div className="skills">
                         <div className="skillsList">
                             <p><strong> * Computer Science Coursework:</strong> Survey of Computer Science, Intro to Programming,
                             AP Computer Science, Problem Solving via Object Oriented Programming, Software Design and Implementation</p>
                         </div>
                         <div className="skillsList">
-                            <p><strong> * Software Skills:</strong> Java, Python, C, JavaScript, SQL, Bash, Nodejs, Pandas</p>
+                            <p><strong> * Software Skills:</strong> Java, Python, C, JavaScript, SQL, Bash, Pandas</p>
                         </div>
                         <div className="skillsList">
                             <p><strong> * What I'm Learning:</strong> AR/VR Development/C# (Unity), React, HTML/CSS</p>

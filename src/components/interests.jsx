@@ -27,6 +27,7 @@ function Interests() {
                             me a way to unpack my thoughts and let my imagination flow. Here's a little poem
                             I wrote about existential dread a while ago :'-)</div>
                         </div>
+                        {/* Writing sample */}
                         <div className="column1Interest">
                             <embed src={caffeinesunsets} type="application/pdf" width="100%" height="500px" />
                         </div>
@@ -52,13 +53,12 @@ function Interests() {
                         </div>
                     </div> 
                     </div> 
-                    {/* Making picture of me scalable*/}
                 </section>
                 {/* Cooking section */}
                 <section>
                     <div className="cooking">
                     <h2><strong>When In Doubt, Add Garlic</strong></h2>
-                    {/* Making picture of me scalable*/}
+                    {/* Inserting all food pictures in a grid format */}
                     <div className="imageContainer">
                         <div className="imagerow1">
                         <div className="imagecolumn1">

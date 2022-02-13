@@ -1,3 +1,4 @@
+/* Import necessary elements */
 import React from "react";
 import scholarship from "../images/scholarship_faq-1.jpeg";
 import esp32 from "../images/esp32.png";
@@ -6,12 +7,12 @@ import nlp from "../images/nlp.jpg";
 function Projects() {
     return (
         <div>
-            {/*for projects*/}
+            {/* For projects */}
             <title>Projects</title>
             <div className="container-fluid">
                 <br /><br /><br />
                 <h1 style={{fontSize: '75px', textAlign: 'center', color: 'rgb(255, 153, 255)'}}>Some of my work!</h1>
-                {/* Writing section */}
+                {/* Scholarship section */}
                 <section>
                     <div className="rowInterest" style={{marginTop: '30px'}}>
                         <div className="columnProject">
@@ -31,7 +32,7 @@ function Projects() {
                         </div>
                     </div>
                 </section>
-                {/* EMS section */}
+                {/* Home Auto Section */}
                 <section>
                     <div className="ems">
                         <div className="rowEMS">
@@ -55,7 +56,7 @@ function Projects() {
                         </div> 
                     </div>
                 </section>
-                {/* Writing section */}
+                {/* NLP section */}
                 <section>
                     <div className="rowInterest" style={{marginTop: '30px'}}>
                         <div className="columnProject">
