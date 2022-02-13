@@ -13,7 +13,7 @@
 
 .welcome {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 96, 68);
 }
 
 .navbar {
@@ -40,12 +40,13 @@
 .container-fluid {
   width: 100%;
   height: 100%;
-  background-image: url(./images/webbackground.png);
+  background-image: url(./images/rainbowbackground.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .content {
@@ -56,7 +57,7 @@
 .about-me {
   width: 100%;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  color:rgb(255, 255, 255)
 }
 
 .logo {
@@ -68,7 +69,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #6eeeff;
+  background-color: #00ccff;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -82,12 +83,12 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color: #6eeeff;
+  background-color: #00ccff;
 }
 
 li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -99,7 +100,7 @@ li a:hover {
 }
 
 .active {
-  background-color: #00cece;
+  background-color: #facc00;
 }
 
 .row::after {
@@ -123,7 +124,7 @@ li a:hover {
   display: flex;
   text-align: center;
   margin-top: 5%;
-  padding-right: 85px;
+  padding-right: 120px;
 }
 
 .rowInterest::after {
@@ -138,6 +139,7 @@ li a:hover {
   padding: 10px;
   justify-content: center;
   margin-top: 50px;
+  color: white;
 }
 
 .column1Interest {
@@ -155,6 +157,7 @@ li a:hover {
   padding: 10px;
   justify-content: center;
   margin-top: 50px;
+  color:white;
 }
 
 .column1Project {
@@ -174,7 +177,7 @@ li a:hover {
 
 .columnEMS {
   float: left;
-  width: 57%;
+  width: 50%;
   padding: 10px;
   display: flex;
   text-align: center;
@@ -183,10 +186,11 @@ li a:hover {
 
 .column1EMS {
   float: left;
-  width: 35%;
+  width: 40%;
   padding: 10px;
   justify-content: center;
   margin-top: 50px;
+  color:rgb(255, 255, 255)
 }
 
 .columnHomeAuto {
@@ -205,6 +209,7 @@ li a:hover {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 50px;
+  color: white;
 }
 
 .writing {
@@ -224,7 +229,6 @@ li a:hover {
 .intro {
   width: 100%;
   font-size: xx-large;
-  font-family: 'Lato', serif;
   padding-bottom: 40px;
 }
 
@@ -243,7 +247,7 @@ li a:hover {
   font-weight: 400;
   text-align: left;
   border-radius: 15px;
-  background: rgb(176, 246, 255);
+  background: rgb(0, 192, 192);
 }
 
 .introSkill {
@@ -284,8 +288,8 @@ li a:hover {
 
 .writing3 {
   font-size: x-large;
-  font-family: "Lato", sans-serif;
   margin: 10px 180px;
+  color:rgb(255, 255, 255);
 }
 
 /* .img{

@@ -10,7 +10,7 @@ function Projects() {
             <title>Projects</title>
             <div className="container-fluid">
                 <br /><br /><br />
-                <h1 style={{fontSize: '75px', textAlign: 'center'}}>Some of my work!</h1>
+                <h1 style={{fontSize: '75px', textAlign: 'center', color: 'rgb(255, 153, 255)'}}>Some of my work!</h1>
                 {/* Writing section */}
                 <section>
                     <div className="rowInterest" style={{marginTop: '30px'}}>
@@ -22,7 +22,7 @@ function Projects() {
                             recipients their rewards, I helped develop a scholarship application that inputs into a SQL database.
                             This database contains several details about the applicant including their pertinent identifying
                             information, academic performance, and financial background. Automated emails can be sent to the
-                            program director, alerting them of new applications that were received within a certain duration
+                            program director via a simple Python program, alerting them of new applications that were received within a certain duration
                             of time. By automating the process of reviewing scholarship submissions, granting scholarships becomes
                             more efficient and easy, benefiting both the recipient and benefactor.</div>
                         </div>
@@ -47,7 +47,7 @@ function Projects() {
                                  project integrated hardware and software through ESP32 chips that connect to the Message 
                                  Queuing Telemetry Transport (MQTT) server to send messages to which the listener reacts to 
                                  by logging into the security log table in a MYSQL database containing tables with all the 
-                                 doors in the house along with their open/closed status. I wrote a program that sends a query 
+                                 doors in the house along with their open/closed status. I wrote a Phythonprogram that sends a query 
                                  to this database looking for all the doors that were opened in the last minute (this time 
                                  interval can be altered to other durations) and sends an email alert to the homeowner letting 
                                  them know which doors were opened. This was an enjoyable learning experience for me and my friends. </div>

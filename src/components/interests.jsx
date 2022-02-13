@@ -15,7 +15,7 @@ function Interests() {
             <title>Interests</title>
             <div className="container-fluid">
                 <br /><br /><br />
-                <h1 style={{fontSize: '75px', textAlign: 'center'}}>Some of my interests!</h1>
+                <h1 style={{fontSize: '75px', textAlign: 'center', color: 'rgb(233, 198, 0)'}}>Some of my interests!</h1>
                 {/* Writing section */}
                 <section>
                     <div className="rowInterest">
@@ -85,7 +85,7 @@ function Interests() {
                     </div>
                     <div className="writing3">Ever since I was a kid, I loved cooking my own food because of the sense of ~independence~
                         it gave me. Experimenting with different recipes was also incredibly fun, if a little messy
-                        and disastrous, at times. Now, I enjoy making garlic caprese sandwiches, brookies, banana
+                        and disastrous at times. Now, I enjoy making garlic caprese sandwiches, brookies, banana
                         bread, and tomato soup.
                     </div>
                     </div>
