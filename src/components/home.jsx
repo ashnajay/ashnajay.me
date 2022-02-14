@@ -31,7 +31,7 @@ function Home() {
                             AP Computer Science, Problem Solving via Object Oriented Programming, Software Design and Implementation</p>
                         </div>
                         <div className="skillsList">
-                            <p><strong> * Software Skills:</strong> Java, Python, C, JavaScript, SQL, Bash, Pandas</p>
+                            <p><strong> * Software Skills:</strong> Java, Python, C, JavaScript, SQL, Bash, Pandas, Nodejs</p>
                         </div>
                         <div className="skillsList">
                             <p><strong> * What I'm Learning:</strong> AR/VR Development/C# (Unity), React, HTML/CSS</p>
